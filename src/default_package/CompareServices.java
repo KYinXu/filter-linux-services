@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CompareServices {
 	String[] defaultServices = {"acpid", "alsa-utils", "anacron", "apparmor", "apport",
-			"avahi-daemon", "bluetooth", "clamav-freshclam", "console-setup.sh", "cron", "cups",
+			"avahi-daemon", "bluetooth", "console-setup.sh", "cron", "cups",
 			"cups-browsed", "dbus", "gdm3", "grub-common", "hwclock.sh", "  irqbalance",
 			"kerneloops", "keyboard-setup.sh", "kmod", "network-manager", "open-vm-tools",
 			"openvpn", "plymouth", "plymouth-log", "pppd-dns", "procps",
