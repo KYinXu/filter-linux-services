@@ -7,7 +7,9 @@ public class Runner {
 		String s = JOptionPane.showInputDialog(null, "List of services");
 		String regEx = "[\\[].[+-?].[\\]]";
 		String[] list = s.split(regEx);
-		
+		for(int i = 0; i < list.length; i++) {
+			System.out.println(list[i]);
+		}
 		CompareServices c = new CompareServices();
 		String[] Extra = c.compareExtra(list);
 		String[] Missing = c.compareMissing(list);
